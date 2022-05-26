@@ -21,4 +21,4 @@ jobs:
       - name: Interact with object storage
         run: |
           s3cmd --access_key=hugo --secret_key=Sobral123. --host-bucket=s3.dev.hugoprado.me --host s3.dev.hugoprado.me sync --recursive --progress assets s3://dev.hugoprado.me
-          s3cmd --access_key=dev --secret_key=Sobral123. --host-bucket=s3.dev.hugoprado.me --host s3.dev.hugoprado.me put index.html s3://dev.hugoprado.me
+          s3cmd --access_key=hugo --secret_key=Sobral123. --host-bucket=s3.dev.hugoprado.me --host s3.dev.hugoprado.me put index.html s3://dev.hugoprado.me
